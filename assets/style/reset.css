@@ -17,3 +17,8 @@ button {
     border: none;
     background: none;
 }
+
+select {
+    border: none;
+    outline: none;
+}

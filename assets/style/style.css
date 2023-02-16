@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap");
 
 .container-full {
     max-width: 1391px;
@@ -15,18 +15,96 @@
 
 /* HEADER */
 
+.header {
+    padding: 27px 0 50px;
+}
 
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__name {
+    font-weight: 400;
+    font-size: 19.5px;
+    line-height: 24px;
+    margin-left: 25px;
+    color: #163872;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header__madal {
+    display: flex;
+    align-items: center;
+}
+
+.header__sign {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.header__user {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    color: #163872;
+}
+
+.header__svg {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
 
 /* HEADER */
 
 /* HERO */
 
+.hero {
+    padding: 50px 0 40px;
+}
 
+.hero__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #000000;
+}
+
+.hero__content {
+    display: flex;
+    column-gap: 130px;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333333;
+}
 
 /* HERO */
 
 /* INTRO */
-
-
 
 /* INTRO */
